@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "openspec-improve",
+  "version": "1.0.0",
+  "description": "AI-assisted specification-driven development workflow skills (OpenSpec, enhanced fork): grill, propose, apply, verify, archive, and more.",
+  "author": { "name": "s16777216" },
+  "homepage": "https://github.com/s16777216/openspec-improve",
+  "repository": "https://github.com/s16777216/openspec-improve",
+  "license": "MIT",
+  "keywords": ["openspec", "spec-driven-development", "skills", "claude-code"]
+}

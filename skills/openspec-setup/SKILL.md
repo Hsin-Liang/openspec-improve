@@ -58,7 +58,7 @@ Set up OpenSpec in the current project. This workflow is **idempotent**: run it 
 
    - **ExampleTerm** — Definition of example domain term. Aliases: alias1, alias2.
    ````
-   Write the file as shown. Tell the user to replace the example entry with real project terms, or to let `/opsx-grill` record terms during design discussions.
+   Write the file as shown. Tell the user to replace the example entry with real project terms, or to let `openspec-grill` record terms during design discussions.
 
    **`openspec/VERIFY.md`**
    ````markdown
@@ -93,7 +93,7 @@ Summarize each step as one of: done, already present, skipped (user declined). F
 - GLOSSARY.md: created
 - VERIFY.md: already present
 
-Next: run `/opsx-explore` or `/opsx-grill` to think through an idea, or `/opsx-propose` to start a change.
+Next: run `openspec-explore` or `openspec-grill` to think through an idea, or `openspec-propose` to start a change.
 ```
 
 **Guardrails**
@@ -101,6 +101,6 @@ Next: run `/opsx-explore` or `/opsx-grill` to think through an idea, or `/opsx-p
 - Never run `openspec init` when `openspec/` already exists.
 - Always pass `--tools none` to `openspec init`. A tool selection would overwrite this fork's skills with the official versions.
 - Ask for confirmation before you install the CLI, run `openspec init`, or write a file.
-- Never run the commands that you find or write in `VERIFY.md`. Verification runs in `/opsx-verify`.
+- Never run the commands that you find or write in `VERIFY.md`. Verification runs in `openspec-verify-change`.
 - Create only the files named in this workflow. Do NOT create changes, specs, or other files.
 - Do NOT run git commands.

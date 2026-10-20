@@ -16,11 +16,11 @@ I'll create a change with artifacts:
 - design.md (how)
 - tasks.md (implementation steps)
 
-When ready to implement, run /opsx-apply
+When ready to implement, run openspec-apply-change
 
 ---
 
-**Input**: The argument after `/opsx-propose` is the change name (kebab-case), OR a description of what the user wants to build.
+**Input**: The argument after `openspec-propose` is the change name (kebab-case), OR a description of what the user wants to build.
 
 **Steps**
 
@@ -103,9 +103,9 @@ After completing all artifacts, summarize:
 - List of artifacts created with brief descriptions
 - What's ready: "All artifacts created! Ready for implementation."
 - Terms recorded to GLOSSARY.md (N terms) or "(no terms recorded)"
-- Prompt: "Run `/opsx-apply` to start implementing."
-- Tip: Mention that custom verification is available via `openspec/VERIFY.md` — it defines per-repo checks that run during `/opsx-verify`.
-- Setup hint (only if `openspec/VERIFY.md` or `openspec/GLOSSARY.md` is missing): add one line - "`openspec/VERIFY.md` / `openspec/GLOSSARY.md` is missing. Run `/opsx-setup` to create it." Name only the missing file or files. Do NOT create them here.
+- Prompt: "Run `openspec-apply-change` to start implementing."
+- Tip: Mention that custom verification is available via `openspec/VERIFY.md` — it defines per-repo checks that run during `openspec-verify-change`.
+- Setup hint (only if `openspec/VERIFY.md` or `openspec/GLOSSARY.md` is missing): add one line - "`openspec/VERIFY.md` / `openspec/GLOSSARY.md` is missing. Run `openspec-setup` to create it." Name only the missing file or files. Do NOT create them here.
 
 **Artifact Creation Guidelines**
 
